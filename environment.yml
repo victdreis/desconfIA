@@ -1,0 +1,15 @@
+name: ragpt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - scikit-learn
+  - numpy
+  - xlsxwriter
+  - faiss-cpu        # opcional; se não quiser FAISS, remova
+  - pip
+  - pip:
+      - sentence-transformers
+      - openai
+      - python-dotenv
